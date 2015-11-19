@@ -1,0 +1,25 @@
+{
+  "name": "nodebb-plugin-ns-disable-infinite-scroll",
+  "version": "1.0.0",
+  "description": "Completely disable infinite scroll feature in NodeBB.",
+  "main": "./plugin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicolasSiver/nodebb-plugin-ns-disable-infinite-scroll.git"
+  },
+  "keywords": [
+    "disable",
+    "infinite",
+    "scroll",
+    "navigation"
+  ],
+  "author": "Nicolas Siver",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NicolasSiver/nodebb-plugin-ns-disable-infinite-scroll/issues"
+  },
+  "homepage": "https://github.com/NicolasSiver/nodebb-plugin-ns-disable-infinite-scroll#readme"
+}
