@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/NicolasSiver/nodebb-plugin-ns-disable-infinite-scroll/issues"
   },
-  "homepage": "https://github.com/NicolasSiver/nodebb-plugin-ns-disable-infinite-scroll#readme"
+  "homepage": "https://github.com/NicolasSiver/nodebb-plugin-ns-disable-infinite-scroll#readme",
+  "nbbpm": {
+    "compatibility": "^0.8.0"
+  }
 }
