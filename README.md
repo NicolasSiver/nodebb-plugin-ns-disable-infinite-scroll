@@ -11,4 +11,11 @@ Completely disable infinite scroll feature in NodeBB.
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
  
 
+- [Note](#note)
+
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+## Note
+
+Don't forget to remove template part that is responsible for scroll configuration from User's Settings.
+For Persona you should delete [these lines](https://github.com/NodeBB/nodebb-theme-persona/blob/757f0ba6d5bc94225e0e6aa6d349d31081f99a31/templates/account/settings.tpl#L129-L139)
