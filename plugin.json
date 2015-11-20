@@ -1,0 +1,16 @@
+{
+  "id": "nodebb-plugin-ns-disable-infinite-scroll",
+  "name": "NodeBB Disable Infinite Scroll",
+  "description": "Completely disable infinite scroll feature in NodeBB.",
+  "url": "https://github.com/NicolasSiver/nodebb-plugin-ns-disable-infinite-scroll",
+  "library": "./plugin/index.js",
+  "hooks": [
+    {
+      "hook": "filter:config.get",
+      "method": "hooks.filters.getConfig"
+    }
+  ],
+  "less": [],
+  "scripts": [],
+  "staticDirs": {}
+}
